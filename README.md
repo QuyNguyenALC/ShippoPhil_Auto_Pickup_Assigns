@@ -1,3 +1,4 @@
+Step to using docker to deploy the project:
 1. Build your images as defined by docker-compose.yml
    docker-compose build
 2. Run the built images as local containers (-d to do it in the background)
@@ -22,3 +23,4 @@ Thus, this project will follow some tasks:
 2/ Receive pickup request and mapping location.
 3/ Finding the optimize shipper satisfy the requirement (Nearest, Available).
 4/ Auto-assign for the shipper, who we found from the previous step.
+
